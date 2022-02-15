@@ -1,0 +1,65 @@
+:root {
+  --text-primary: #000;
+  --bgPrimary: #fff;
+  --bgSecondary: #f9f9f9;
+  --red: #c9082a;
+  --light-blue: #17408b;
+  --border: #d9d9d9;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* * styling the app */
+.app {
+  display: flex;
+  overflow: hidden;
+}
+
+/* * styling the navbar */
+.navbar {
+  flex: 0.2;
+  background-color: #bd1600;
+}
+
+/* * styling the main container */
+.main {
+  flex: 0.8;
+  width: 100%;
+}
+
+/* * styling the footer container */
+.footer {
+  background-color: #c9082a;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+/* * styling the nav container */
+.nav-container {
+  position: fixed;
+  left: 0;
+  margin: 10px;
+  height: 100vh;
+  margin: 0px;
+  background-color: #17408b;
+}
+
+/* * styling the logo container */
+.logo-container {
+  background-color: #17408b;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+/* * styling the logo */
+.logo {
+  margin: 0 0 0 15px;
+}
