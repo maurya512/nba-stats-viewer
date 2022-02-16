@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">Nba Stats Viewer</Link>
+          <Link to="/">NBA Stats</Link>
         </Typography.Title>
       </div>
       {/* * menu items */}
