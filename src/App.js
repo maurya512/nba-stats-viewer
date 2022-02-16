@@ -18,7 +18,26 @@ const App = () => {
             </div>
             {/* * main content of the page */}
             <div className='main'>
-
+                <Layout>
+                    <div className='routes'>
+                        {/* ! Routes is an updated version of Switch */}
+                        <Routes>
+                            {/* * a specific component will be rendered when an exact path will be hit */}
+                            <Route exact path='/'>
+                                <Homepage />
+                            </Route>
+                            <Route exact path='/easternconference'>
+                                <EasternConference />
+                            </Route>
+                            <Route exact path='/westernconference'>
+                                <WesternConference />
+                            </Route>
+                            {/* <Route exact path='/playerstats'>
+                                <PlayerStats />
+                            </Route> */}
+                        </Routes>
+                    </div>
+                </Layout>
             </div>
             {/* * footer */}
             <div className='footer'>

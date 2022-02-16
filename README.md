@@ -27,3 +27,10 @@
 
 <!-- * creating a way to house all component imports in one file rather than having to import them in the app component -->
 
+<!-- * styling the components we created along the way -->
+
+<!-- ! adding menu items and changing the styling in navbar along the way -->
+
+<!-- * adding items to the main component in app.js file -->
+
+<!-- * creating components' boilerplates to see if routes hit -->

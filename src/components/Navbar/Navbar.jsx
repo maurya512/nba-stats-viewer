@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 import {
   HomeOutlined,
   BulbOutlined,
-  MenuOutlined,
-  UserOutlined,
+  DribbbleOutlined,
+  DribbbleCircleFilled,
 } from "@ant-design/icons";
 
 // * import images for logo and avatar
-import icon from "../../images/nba.jpg";
+import icon from "../../images/nbasvg.png";
 
 const Navbar = () => {
   return (
@@ -24,6 +24,18 @@ const Navbar = () => {
           <Link to="/">Nba Stats Viewer</Link>
         </Typography.Title>
       </div>
+      {/* * menu items */}
+      <Menu theme="dark">
+        <Menu.Item icon={<HomeOutlined />}>
+          <Link to="/">Home</Link>
+        </Menu.Item>
+        <Menu.Item icon={<DribbbleOutlined />}>
+          <Link to="/easternconference">Eastern Conference</Link>
+        </Menu.Item>
+        <Menu.Item icon={<DribbbleCircleFilled />}>
+          <Link to="/westernconference">Western Conference</Link>
+        </Menu.Item>
+      </Menu>
     </div>
   );
 };
