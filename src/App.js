@@ -4,7 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { Typography, Layout, Space } from 'antd'
 
 // * importing components
-import { Navbar, Homepage, EasternConference, WesternConference, PlayerStats } from './components'
+import { Navbar, Homepage, EasternConference, WesternConference, PlayerStats, Scores } from './components'
 
 // * importing style files 
 import './App.css'
@@ -29,6 +29,7 @@ const App = () => {
                                 element={<EasternConference />} />
                             <Route exact path='/westernconference'
                                 element={<WesternConference />} />
+                            <Route exact path='/scores' element={<Scores />} />
                             {/* <Route exact path='/playerstats'>
                                 <PlayerStats />
                             </Route> */}

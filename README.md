@@ -1,8 +1,8 @@
-# Nba Stats Viewer 
+# Nba Stats Viewer
 
 ## API-NBA to get the livescore for each game
 
-## NBA Player Individual Stats 
+## NBA Player Individual Stats
 
 ## antd for icons and the basic design of the application
 
@@ -22,7 +22,6 @@
 
 <!-- ! App.css file for basic styling of the page -->
 
-
 <!-- * importing navbar to app component -->
 
 <!-- * creating a way to house all component imports in one file rather than having to import them in the app component -->
@@ -34,3 +33,20 @@
 <!-- * adding items to the main component in app.js file -->
 
 <!-- * creating components' boilerplates to see if routes hit -->
+
+<!-- * creating a footer in app.js file and giving it a common styling  -->
+
+<!-- ! creating the live score card that will display scores of current teams fetched from apis -->
+
+<!-- ! using cards and statistics from antdesign -->
+
+<!-- * trying to fetch data using redux toolkit -->
+
+<!-- * we start by creating a store, a store is one state of truth where all other states of our applications are housed -->
+
+<!-- * importing the store into index.js and encompassing it into provider to make sure that the entire app component has access to all the reducers and state from the store variable -->
+
+<!-- * if the score link does not work try to fix the create request in scoreApiv 3:35-->
+
+<!-- * establish a connection to the api in store.js using scoreApi created in the store using reducerPath and reducers -->
+
