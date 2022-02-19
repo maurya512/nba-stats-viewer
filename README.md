@@ -50,3 +50,6 @@
 
 <!-- * establish a connection to the api in store.js using scoreApi created in the store using reducerPath and reducers -->
 
+<!-- ! try to get the api working to display top news and articles in the basket ball world -->
+
+

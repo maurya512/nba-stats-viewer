@@ -4,12 +4,15 @@ import millify from "millify";
 import { Typography, Row, Col, Statistic, Card } from "antd";
 import { Link } from "react-router-dom";
 
-import { useGetScoreQuery } from "../../services/scoreApi";
+import { useGetStatsQuery } from "../../services/scoreApi";
 
 const Homepage = () => {
-  // const { data, isFetching } = useGetScoreQuery();
+  const { data, isFetching } = useGetStatsQuery();
+  // const globalStats = data?.
+  console.log(data);
 
-  // console.log(data);
+  if (isFetching) return "Loading....";
+
   return (
     <>
       {/* Title Live Score section */}
@@ -24,8 +27,7 @@ const Homepage = () => {
           {/* ! card displays scores from each game */}
           <Col span={8}>
             <Card title="Current Score" bordered={false}>
-              <Statistic title="Team 1" value="5" />
-              <Statistic title="Team 2" value="5" />
+              {data.source}
             </Card>
           </Col>
           <Col span={8}>
