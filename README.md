@@ -52,4 +52,6 @@
 
 <!-- ! try to get the api working to display top news and articles in the basket ball world -->
 
+<!-- ! will need to come back and finish the top portion of the app by displaying latest nba news -->
 
+<!-- ! continued building the home page and setting up basic layout of the eastern and western conference teams -->
